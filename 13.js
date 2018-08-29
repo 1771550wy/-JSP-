@@ -1,9 +1,7 @@
-function findAllOccurrences(arr, target) {
-    var arr1=[];
+function square(arr) {
+    var newarr=[];
     for(i=0; i<arr.length; i++){
-        if(target==arr[i]){
-           arr1.push(i); 
-        }
+        newarr[i]=arr[i]*arr[i];
     }
-    return arr1;   
+    return newarr;
 }
