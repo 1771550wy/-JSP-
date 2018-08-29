@@ -6,3 +6,5 @@ function duplicates(arr) {
         }
     return a;
 }
+//userAgentInfo.indexOf(Agents[v])：
+//A.indexOf(array[i]):A元素是否存在于数组array里面；如果存在就会返回对应的下标，如果不存在则返回-1。
